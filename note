@@ -1,0 +1,6 @@
+Azure Pipeline:
+1. Build Pipelines: These pipeline Jobs clone the code from asiigned repositories and build the project based on instructions provided in yaml file. 
+Typically we use Build pipelines to publish Artifacts of the project
+
+2. Releasr Pipelines: These pipelines are generally used to deploy the build artifacts into Agent Machines.
+3. Create Release: This component helps us to build ened to end pipeline (connecting Build and release Pipelines) for CI/CD implementation
